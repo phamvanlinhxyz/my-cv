@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Vallih-font-light;
+    src: url(../assets/fonts/Inconsolata-Light.ttf);
+}
+
+@font-face {
+    font-family: Vallih-font-regular;
+    src: url(../assets/fonts/Inconsolata-Regular.ttf);
+}
+
+@font-face {
+    font-family: Vallih-font-medium;
+    src: url(../assets/fonts/Inconsolata-Medium.ttf);
+}
+
+@font-face {
+    font-family: Vallih-font-semibold;
+    src: url(../assets/fonts/Inconsolata-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Vallih-font-bold;
+    src: url(../assets/fonts/Inconsolata-Bold.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b8bcc3
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #f1f1f1;
+    width: 6px
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Vallih-font-medium;
+    font-size: 16px;
+    word-break: break-word;;
+}
+
+html, body {
+    cursor: url(../assets/images/cursor.png), auto;
+}
+
+span {
+    font-family: Vallih-font-regular;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #2d6a4f;
+}
+
+a:hover, a:focus {
+    color: #40916c;
+    cursor: url(../assets/images/a-cursor.png), auto;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 25px 0;
+}
+
+/* CSS Header */
+.header .name {
+    font-family: Vallih-font-semibold;
+    color: #248277;
+}
+
+.header .avatar {
+    padding: 3px;
+    box-shadow: 0 5px 20px 0 #248277, 0px 0 0 5px #248277;
+}
+
+/* CSS body */
+.body .title {
+    font-family: Vallih-font-bold;
+    color: #248277;
+}
+
+.body .title::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    margin: 0 8px;
+    border-bottom: 1px solid #248277;
+    opacity: .5;
+}
+
+/* CSS Content */
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.info-icon {
+    width: 20px;
+    opacity: .6;
+    display: flex;
+    justify-content: center;
+}
+
+.info-value {
+    margin-left: 8px;
+}
+
+.content-edu h5, .content-prj h5 {
+    font-family: Vallih-font-semibold;
+}
+
